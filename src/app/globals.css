@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: oklch(98% 0.01 85);
+  --color-gold-100: oklch(96% 0.03 85);
+  --color-gold-200: oklch(91% 0.06 85);
+  --color-gold-300: oklch(85% 0.10 85);
+  --color-gold-400: oklch(79% 0.13 85);
+  --color-gold-500: oklch(76% 0.15 85); /* Core Gold: #d4af37 */
+  --color-gold-600: oklch(68% 0.13 85);
+  --color-gold-700: oklch(58% 0.11 85);
+  --color-gold-800: oklch(47% 0.09 85);
+  --color-gold-900: oklch(38% 0.07 85);
+
+  /* Theme-responsive variables */
+  --color-dark-bg: var(--background);
+  --color-dark-surface: var(--card-bg);
+  --color-dark-card: var(--card-card);
+  --color-dark-border: var(--card-border);
+  --color-dark-muted: var(--text-muted);
+  --color-text-main: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+
+  /* Absolute constant colors */
+  --color-absolute-dark: oklch(13% 0.01 250); /* Original #0b0c10 */
+  --color-absolute-light: oklch(98% 0.005 250); /* Light theme background */
+
+  --font-display: "Outfit", var(--font-sans);
+  --font-body: "Plus Jakarta Sans", var(--font-sans);
+}
+
+:root {
+  /* Default Light Sky Blue Theme */
+  --background: oklch(91% 0.045 220); /* Soft Light Sky Blue background */
+  --foreground: oklch(22% 0.03 220); /* Dark slate blue text */
+  --card-bg: oklch(100% 0 0); /* Pure White for card surfaces */
+  --card-card: oklch(96% 0.02 220); /* Very soft sky blue card accent */
+  --card-border: oklch(84% 0.03 220); /* Subtle blue-slate border */
+  --text-muted: oklch(46% 0.02 220); /* Muted slate blue */
+  --text-primary: oklch(15% 0.03 220); /* Deep navy-slate for primary titles */
+  --text-secondary: oklch(32% 0.02 220); /* Slate blue for paragraph body */
+}
+
+html {
+  scroll-behavior: auto; /* Required for Lenis smooth scroll */
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui;
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: oklch(78% 0.12 220); /* Soft sky blue selection */
+  color: oklch(100% 0 0); /* White text */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--card-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: oklch(38% 0.07 85);
+  border-radius: 5px;
+  border: 2px solid var(--card-bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(76% 0.15 85);
+}
+
+/* Lenis Smooth Scroll Setup */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Keyframes & Utilities */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* Premium Gold Text Gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, oklch(91% 0.06 85) 0%, oklch(76% 0.15 85) 50%, oklch(47% 0.09 85) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Soft gold glow effect */
+.gold-glow {
+  box-shadow: 0 0 40px -10px oklch(76% 0.15 85 / 0.15);
+}
+
+.gold-glow-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.gold-glow-hover:hover {
+  box-shadow: 0 0 30px -5px oklch(76% 0.15 85 / 0.25);
+  border-color: oklch(76% 0.15 85 / 0.4);
+}
+
+/* Device Mockup Framework Styles */
+.browser-frame {
+  position: relative;
+  background: #1e1e24;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid var(--card-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.browser-header {
+  height: 30px;
+  background: #16161a;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  gap: 6px;
+  border-bottom: 1px solid var(--card-border);
+}
+.browser-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.tablet-frame {
+  position: relative;
+  border: 12px solid #1a1a1a;
+  border-radius: 24px;
+  background: #000;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.mobile-frame {
+  position: relative;
+  border: 10px solid #1c1c1e;
+  border-radius: 36px;
+  background: #000;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+.mobile-notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110px;
+  height: 18px;
+  background: #1c1c1e;
+  border-radius: 0 0 12px 12px;
+  z-index: 10;
+}
