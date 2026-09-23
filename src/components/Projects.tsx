@@ -148,6 +148,74 @@ export default function Projects() {
       category: "Enterprise & Cloud",
       icon: Code,
     },
+    {
+      title: "Bottle Brand Website",
+      description: "Premium product showcase website with modern UI and smooth animations.",
+      detailedDescription: "A custom promotional and visual commerce experience for an artisanal bottle manufacturer. Built with fluid layouts, WebGL canvas transitions, user-interactive showcase modules, and smooth scrolling capabilities.",
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Three.js", "Framer Motion"],
+      features: [
+        "WebGL bottle preview with rotation control.",
+        "Smooth page transition offsets.",
+        "Interactive variant styling and liquid fill simulation.",
+        "Lighthouse 100 SEO score optimization."
+      ],
+      image: "/project_bottle.png",
+      demoUrl: "https://thriving-bunny-01ec14.netlify.app/",
+      githubUrl: "https://github.com/akash-kumar02/bottle-brand",
+      category: "Creative Frontend",
+      icon: Code,
+    },
+    {
+      title: "Cosmetic Brand Website",
+      description: "Elegant cosmetic brand website with premium product presentation.",
+      detailedDescription: "A luxurious brand experience designed for an organic skincare product line. Restructures product navigation, filters, and checkout stages with custom animations and fluid design tokens.",
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Lenis Scroll", "GSAP"],
+      features: [
+        "Custom product showcase grid with parallax reveals.",
+        "Micro-interactions on ingredient details.",
+        "Secure checkout form layout validation.",
+        "Smooth scroll and custom transition curves."
+      ],
+      image: "/project_cosmetic.png",
+      demoUrl: "https://thriving-bunny-01ec14.netlify.app/",
+      githubUrl: "https://github.com/akash-kumar02/skincare-cosmetics",
+      category: "E-Commerce Design",
+      icon: Code,
+    },
+    {
+      title: "Urban Garden",
+      description: "Modern landscaping and gardening website with service and gallery.",
+      detailedDescription: "An online platform built for an urban gardening agency. Incorporates real-time service booking, service categorization, design moodboards, and testimonials synced with database controllers.",
+      tech: ["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+      features: [
+        "Dynamic catalog display based on local seasonality.",
+        "Consultation scheduling dashboard.",
+        "Static JSON backup failover configuration.",
+        "Responsive photo grid with modal gallery preview."
+      ],
+      image: "/project_garden.png",
+      demoUrl: "https://thriving-bunny-01ec14.netlify.app/",
+      githubUrl: "https://github.com/akash-kumar02/urban-garden",
+      category: "Full Stack App",
+      icon: Code,
+    },
+    {
+      title: "Rahul Custom Motorcycles",
+      description: "Luxury motorcycle website with custom bike showcases and services.",
+      detailedDescription: "A visual showcase portfolio designed for a bespoke custom chopper design garage. Includes interactive customization blueprints, gallery, custom bike features, and parts assembly details.",
+      tech: ["Next.js", "Tailwind CSS", "Node.js", "Framer Motion", "MongoDB"],
+      features: [
+        "Interactive blueprint customizer dashboard.",
+        "Immersive media galleries.",
+        "Stateless sessions for inquiries inbox management.",
+        "Responsive device frames matching Desktop/Tablet/Mobile viewports."
+      ],
+      image: "/project_motorcycle.png",
+      demoUrl: "https://thriving-bunny-01ec14.netlify.app/",
+      githubUrl: "https://thriving-bunny-01ec14.netlify.app/",
+      category: "Bespoke Portfolio",
+      icon: Code,
+    },
   ];
 
   const otherProjects = [
