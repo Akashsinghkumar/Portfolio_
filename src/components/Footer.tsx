@@ -51,31 +51,34 @@ export default function Footer() {
           {/* Social icons */}
           <div className="flex items-center space-x-3.5">
             <a
-              href="https://github.com/akash-kumar02"
+              href="https://github.com/Akashsinghkumar"
               target="_blank"
               rel="noreferrer"
               className="text-slate-600 hover:text-[#d69f10] transition-colors p-2 border border-slate-300 rounded-full hover:border-[#d69f10]"
               aria-label="GitHub"
+              title="GitHub"
             >
               <GithubIcon className="w-3.5 h-3.5" />
             </a>
             <a
-              href="https://linkedin.com/in/akash-kumar02"
+              href="https://www.linkedin.com/in/akash-kumar-3baa04250?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noreferrer"
               className="text-slate-600 hover:text-[#d69f10] transition-colors p-2 border border-slate-300 rounded-full hover:border-[#d69f10]"
               aria-label="LinkedIn"
+              title="LinkedIn"
             >
               <LinkedinIcon className="w-3.5 h-3.5" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://wa.me/918580051079"
               target="_blank"
               rel="noreferrer"
               className="text-slate-600 hover:text-[#d69f10] transition-colors p-2 border border-slate-300 rounded-full hover:border-[#d69f10]"
-              aria-label="Twitter"
+              aria-label="WhatsApp"
+              title="WhatsApp"
             >
-              <TwitterIcon className="w-3.5 h-3.5" />
+              <WhatsappIcon className="w-3.5 h-3.5" />
             </a>
           </div>
 
@@ -88,13 +91,13 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Persistent Pulsing Floating WhatsApp Button positioned in place of the scroll button */}
+      {/* Persistent Pulsing Floating WhatsApp Button */}
       <a
-        href="https://wa.me/917004454992"
+        href="https://wa.me/918580051079"
         target="_blank"
         rel="noreferrer"
         className="fixed bottom-6 right-6 z-40 p-3.5 bg-emerald-500 hover:bg-emerald-400 text-white rounded-full shadow-2xl transition-all hover:scale-110 cursor-pointer flex items-center justify-center border border-emerald-400/50 animate-bounce"
-        title="Chat on WhatsApp"
+        title="Chat on WhatsApp (+91 8580051079)"
       >
         <WhatsappIcon className="w-5 h-5 fill-current" />
       </a>
