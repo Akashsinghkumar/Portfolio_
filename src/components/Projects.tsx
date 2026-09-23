@@ -30,71 +30,122 @@ export default function Projects() {
 
   const featuredProjects = [
     {
-      title: "Bottle Brand Website",
-      description: "Premium product showcase website with modern UI and smooth animations.",
-      detailedDescription: "A custom promotional and visual commerce experience for an artisanal bottle manufacturer. Built with fluid layouts, WebGL canvas transitions, user-interactive showcase modules, and smooth scrolling capabilities.",
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Three.js", "Framer Motion"],
+      title: "PolyRevive Innovation",
+      description: "Sustainable PET recycling, flakes processing & eco-friendly manufacturing platform.",
+      detailedDescription: "A high-performance corporate platform designed for PolyRevive Innovation Private Limited. Highlights sustainable PET bottle recycling, industrial flakes & pellets processing, environmental impact statistics, and B2B international trade workflows.",
+      tech: ["React.js", "Tailwind CSS", "Cloudflare Workers", "Framer Motion", "Lucide Icons"],
       features: [
-        "WebGL bottle preview with rotation control.",
-        "Smooth page transition offsets.",
-        "Interactive variant styling and liquid fill simulation.",
-        "Lighthouse 100 SEO score optimization."
+        "Interactive PET recycling stages & industrial plant walkthrough.",
+        "Real-time carbon footprint and plastic diversion impact counters.",
+        "B2B quote inquiry portal with enterprise email sync.",
+        "Cloudflare Workers edge delivery for sub-second global speeds."
       ],
-      image: "/project_bottle.png",
-      demoUrl: "https://bottle.example.com",
-      githubUrl: "https://github.com/akash-kumar02/bottle-brand",
-      category: "Creative Frontend",
+      image: "/project_polyrevive.jpg",
+      demoUrl: "https://polyrevive.akashsingh91554.workers.dev/",
+      githubUrl: "https://polyrevive.akashsingh91554.workers.dev/",
+      category: "CleanTech & Recycling",
       icon: Code,
     },
     {
-      title: "Cosmetic Brand Website",
-      description: "Elegant cosmetic brand website with premium product presentation.",
-      detailedDescription: "A luxurious brand experience designed for an organic skincare product line. Restructures product navigation, filters, and checkout stages with custom animations and fluid design tokens.",
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Lenis Scroll", "GSAP"],
+      title: "Shristy Home Health Care",
+      description: "Comprehensive patient, elderly, post-surgery recovery & nursing care services.",
+      detailedDescription: "A modern, patient-first healthcare web portal for Shristy Home Health Care. Features detailed service breakdowns for ICU nursing, post-surgery recovery, physiotherapy, baby care, and direct WhatsApp instant consults.",
+      tech: ["Next.js", "Tailwind CSS", "Cloudflare Workers", "Lucide Icons", "SEO Engine"],
       features: [
-        "Custom product showcase grid with parallax reveals.",
-        "Micro-interactions on ingredient details.",
-        "Secure checkout form layout validation.",
-        "Smooth scroll and custom transition curves."
+        "Complete elderly, ICU patient & newborn care service modules.",
+        "Instant 24/7 WhatsApp emergency consult integration.",
+        "Patient recovery testimonials and certified caregiver verification.",
+        "Mobile-optimized booking flow with instant phone call actions."
       ],
-      image: "/project_cosmetic.png",
-      demoUrl: "https://cosmetics.example.com",
-      githubUrl: "https://github.com/akash-kumar02/skincare-cosmetics",
-      category: "E-Commerce Design",
+      image: "/project_shristy.png",
+      demoUrl: "https://home-health-care-website.akashsingh91554.workers.dev/",
+      githubUrl: "https://home-health-care-website.akashsingh91554.workers.dev/",
+      category: "Healthcare & Nursing",
       icon: Code,
     },
     {
-      title: "Urban Garden",
-      description: "Modern landscaping and gardening website with service and gallery.",
-      detailedDescription: "An online platform built for an urban gardening agency. Incorporates real-time service booking, service categorization, design moodboards, and testimonials synced with database controllers.",
-      tech: ["React.js", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
+      title: "Mansha International",
+      description: "Circular & flat knitting machines manufacturer, exporter & engineering specs.",
+      detailedDescription: "A heavy machinery engineering catalog built for Mansha International. Showcases single-jersey, double-jersey, fleece, open-width circular knitting machines, cambox engineering specs, and global textile machinery supply.",
+      tech: ["React.js", "Tailwind CSS", "Cloudflare Workers", "GSAP", "Framer Motion"],
       features: [
-        "Dynamic catalog display based on local seasonality.",
-        "Consultation scheduling dashboard.",
-        "Static JSON backup failover configuration.",
-        "Responsive photo grid with modal gallery preview."
+        "Comprehensive industrial catalog with technical specification sheets.",
+        "Interactive cambox, needle track and feeder blueprint modal previews.",
+        "International B2B machinery quotation request system.",
+        "Ultra-fast CDN asset delivery and responsive hardware frame views."
       ],
-      image: "/project_garden.png",
-      demoUrl: "https://garden.example.com",
-      githubUrl: "https://github.com/akash-kumar02/urban-garden",
-      category: "Full Stack App",
+      image: "/project_mansha.jpg",
+      demoUrl: "https://mansha-international.akashsingh91554.workers.dev/",
+      githubUrl: "https://mansha-international.akashsingh91554.workers.dev/",
+      category: "Industrial Engineering",
       icon: Code,
     },
     {
-      title: "Rahul Custom Motorcycles",
-      description: "Luxury motorcycle website with custom bike showcases and services.",
-      detailedDescription: "A visual showcase portfolio designed for a bespoke custom chopper design garage. Includes interactive customization blueprints, gallery, custom bike features, and parts assembly details.",
-      tech: ["Next.js", "Tailwind CSS", "Node.js", "Framer Motion", "MongoDB"],
+      title: "Prime Build Infrastructure",
+      description: "Govt tenders, luxury homes, architectural fabrication & resort developments.",
+      detailedDescription: "A master architectural & construction showcase platform built for Prime Build. Displays high-value government infrastructure tenders, street lighting poles, road safety barricades, custom metal fabrication, and luxury resort developments.",
+      tech: ["HTML5", "Modern CSS3", "JavaScript", "Cloudflare Workers", "Responsive UI"],
       features: [
-        "Interactive blueprint customizer dashboard.",
-        "Immersive media galleries.",
-        "Stateless sessions for inquiries inbox management.",
-        "Responsive device frames matching Desktop/Tablet/Mobile viewports."
+        "Government tender capabilities & public infrastructure portfolio.",
+        "Luxury residential, resort & landscaping architecture showcase.",
+        "Detailed fabrication, road safety & railing specification gallery.",
+        "Fluid split-screen hero presentation with smooth scroll effects."
       ],
-      image: "/project_motorcycle.png",
-      demoUrl: "https://thriving-bunny-01ec14.netlify.app/",
-      githubUrl: "https://thriving-bunny-01ec14.netlify.app/",
-      category: "Bespoke Portfolio",
+      image: "/project_primebuild.webp",
+      demoUrl: "https://prime-build-project-1.akashsingh91554.workers.dev/",
+      githubUrl: "https://prime-build-project-1.akashsingh91554.workers.dev/",
+      category: "Architecture & Infrastructure",
+      icon: Code,
+    },
+    {
+      title: "HOS Legal & Funding",
+      description: "Grants, equity, debt funding, company registration & digital business services.",
+      detailedDescription: "An all-in-one corporate advisory and fintech services portal. Simplifies startup funding acquisition, government grants, debt syndication, company incorporation, regulatory compliance, and digital growth acceleration.",
+      tech: ["React.js", "Tailwind CSS", "Cloudflare Workers", "Node.js", "FinTech UI"],
+      features: [
+        "Interactive funding readiness assessment & grant eligibility calculator.",
+        "End-to-end corporate registration & trademark filing modules.",
+        "Comprehensive equity, debt & startup advisory pipelines.",
+        "Secure document intake workflow with instant consultation scheduler."
+      ],
+      image: "/project_hos_legal.jpg",
+      demoUrl: "https://broken-dream-1a50.akashsingh91554.workers.dev/",
+      githubUrl: "https://broken-dream-1a50.akashsingh91554.workers.dev/",
+      category: "FinTech & Legal Tech",
+      icon: Code,
+    },
+    {
+      title: "Restro — Fine Dining & Cafe",
+      description: "100% Pure Veg fine dining, interactive table booking & takeaway ordering.",
+      detailedDescription: "A bespoke culinary and hospitality web application for an upscale pure vegetarian restaurant. Features categorized gourmet menus, dish dietary tags, seamless table reservation system, and takeaway ordering flows.",
+      tech: ["Next.js", "Tailwind CSS", "Cloudflare Workers", "Lenis Scroll", "Framer Motion"],
+      features: [
+        "Interactive multi-course vegetarian menu with instant dietary filters.",
+        "Real-time table reservation wizard with guest & time slot selection.",
+        "Signature dish highlights, ambience photography, and customer reviews.",
+        "Smooth fluid transitions and mobile-first ordering experience."
+      ],
+      image: "/project_restro.png",
+      demoUrl: "https://restro.akashsingh91554.workers.dev/",
+      githubUrl: "https://restro.akashsingh91554.workers.dev/",
+      category: "Hospitality & Food Tech",
+      icon: Code,
+    },
+    {
+      title: "HOS Bharat Digital Platform",
+      description: "Strategic business ecosystem, digital consulting, enterprise & cloud solutions.",
+      detailedDescription: "An enterprise digital ecosystem platform built for Indian businesses and MSMEs. Delivers end-to-end digital transformation, cloud architecture consulting, brand development, and omnichannel customer growth solutions.",
+      tech: ["React.js", "Tailwind CSS", "Cloudflare Workers", "Vite", "Modern UI"],
+      features: [
+        "Comprehensive digital business services and technology solutions suite.",
+        "Cloud infrastructure and digital transformation roadmap planner.",
+        "Client success case studies and KPI growth dashboards.",
+        "Optimized global edge distribution and responsive cross-device layout."
+      ],
+      image: "/project_hos_bharat.jpg",
+      demoUrl: "https://hos-bharat.akashsingh91554.workers.dev/",
+      githubUrl: "https://hos-bharat.akashsingh91554.workers.dev/",
+      category: "Enterprise & Cloud",
       icon: Code,
     },
   ];
@@ -141,7 +192,7 @@ export default function Projects() {
         </div>
 
         {/* Featured Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {featuredProjects.map((project, idx) => (
             <motion.div
               key={idx}
@@ -153,17 +204,17 @@ export default function Projects() {
             >
               {/* Image Preview */}
               <div 
-                className="relative h-44 w-full bg-slate-100 overflow-hidden cursor-pointer"
+                className="relative h-48 w-full bg-slate-100 overflow-hidden cursor-pointer"
                 onClick={() => setSelectedProject(project)}
               >
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-white/20 via-transparent to-transparent" />
-                <span className="absolute top-3 left-3 bg-white/90 border border-slate-200/80 px-2 py-0.5 rounded-md text-[8px] font-bold tracking-wider text-[#d69f10] uppercase">
+                <span className="absolute top-3 left-3 bg-white/90 border border-slate-200/80 px-2 py-0.5 rounded-md text-[8px] font-bold tracking-wider text-[#d69f10] uppercase shadow-xs">
                   {project.category}
                 </span>
               </div>
@@ -195,15 +246,15 @@ export default function Projects() {
                       onClick={() => setSelectedProject(project)}
                       className="flex-1 text-center py-2 bg-[#e5ad19] hover:bg-[#d69f10] text-[#1e1e1e] font-extrabold text-[10px] tracking-widest rounded-lg transition-colors uppercase cursor-pointer"
                     >
-                      Live Demo
+                      Case Study
                     </button>
                     <a
-                      href={project.githubUrl}
+                      href={project.demoUrl}
                       target="_blank"
                       rel="noreferrer"
                       className="flex-1 text-center py-2 border border-slate-300 hover:border-slate-400 text-slate-800 font-extrabold text-[10px] tracking-widest rounded-lg transition-colors uppercase inline-flex justify-center items-center gap-1 cursor-pointer"
                     >
-                      Visit Website
+                      Visit Live <ArrowUpRight className="w-3 h-3" />
                     </a>
                   </div>
                 </div>
